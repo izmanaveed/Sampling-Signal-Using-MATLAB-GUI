@@ -10,7 +10,7 @@ s(Nt),   for integer values of n.
 The sampling frequency or sampling rate, fs, is the average number of samples obtained in one second (samples per second), thus fs = 1/T.  
 In practice, the continuous signal is sampled using an analog-to-digital converter (ADC), a device with various physical limitations.
 
-## Sampling theorem
+## SAMPLING THEOREM
 A continuous-time signal can be represented in its samples and can be recovered back when sampling frequency fs is greater than or equal to twice the highest frequency component of the message signal. i. e. fs≥2fm.  
 ![image](https://github.com/izmanaveed/Sampling-Signal-Using-MATLAB-GUI/assets/59065717/8032afea-4f91-48dd-b9b2-be88c889ef76)  
 NOTE: Aliasing Effect  
@@ -25,12 +25,12 @@ The actions in a GUI are usually performed through direct manipulation of the gr
 
 Using the same theory, the sampling process done in MATLAB can be implemented through GUI. It will provide a more user-friendly and interactive environment. Also, instead of having to type in commands, the user can do so using virtual tools.
 
-### SOME DETAILS REGARDING GUI OPTIONS USED IN PROJECT:  
+### SOME DETAILS REGARDING GUI OPTIONS USED IN PROJECT  
 1. Edit text allows us to enter values while the GUI runs. It is usually used for input.
 2. Static text does not take values, instead it only displays them.
 3. Push button allows the user to select the desired event and see its results.
 
-## TESTING SAMPLING CODE ON MATLAB:
+## TESTING SAMPLING CODE ON MATLAB
 Please see Section 1 of the code in code.docx. 
 
 ### THE RESULTS OBTAINED WERE
@@ -41,8 +41,11 @@ Energy_d = 49.5081
 
 ![image](https://github.com/izmanaveed/Sampling-Signal-Using-MATLAB-GUI/assets/59065717/6948b2f9-7628-4827-b14d-afc75cadad6e)
 
-## PROGRAMMING THE GUI:  
+## PROGRAMMING THE GUI  
 Please see Section 2 of the code in code.docx.  
+
+### RESULTS  
+
 ![image](https://github.com/izmanaveed/Sampling-Signal-Using-MATLAB-GUI/assets/59065717/ca9cbf7d-dbfd-4d3f-a9e4-5c459c196095)  
 
 ![image](https://github.com/izmanaveed/Sampling-Signal-Using-MATLAB-GUI/assets/59065717/130be0f8-35a3-46fb-a750-7c0c8a362f4d)  
